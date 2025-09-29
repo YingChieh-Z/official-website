@@ -3,7 +3,7 @@ import { onMounted, onUnmounted } from "vue";
 
 //example components
 import DefaultNavbar from "../../../examples/navbars/NavbarDefault.vue";
-//import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
+import DefaultFooter from "../../../examples/footers/FooterDefault.vue";
 
 //image
 import bg0 from "@/assets/img/sportField.jpg";
@@ -13,7 +13,7 @@ import Typed from "typed.js";
 
 //sections
 import Information from "./Sections/AboutInformation.vue";
-import AboutTeam from "./Sections/AboutTeam.vue";
+import Featuring from "./Sections/AboutFeaturing.vue";
 
 const body = document.getElementsByTagName("body")[0];
 //hooks
@@ -25,9 +25,9 @@ onMounted(() => {
     // eslint-disable-next-line no-unused-vars
     var typed = new Typed("#typed", {
       stringsElement: "#typed-strings",
-      typeSpeed: 90,
-      backSpeed: 90,
-      backDelay: 200,
+      typeSpeed: 250,
+      backSpeed: 200,
+      backDelay: 350,
       startDelay: 500,
       loop: true,
     });
@@ -57,25 +57,10 @@ onUnmounted(() => {
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto my-auto">
-            <h1 class="text-white">
-              <span class="text-white" id="typed"></span>
-            </h1>
+            <h1 class="text-white">臺北市立大學<span id="typed"></span></h1>
+            <span class="typed-cursor" aria-hidden="true">|</span>
             <div id="typed-strings">
-              <h1>臺北市立大學學生會</h1>
-            </div>
-            <div class="d-flex justify-content-center">
-              <a href="javascript:;"
-                ><i class="fab fa-facebook text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-instagram text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-twitter text-lg text-white me-4"></i
-              ></a>
-              <a href="javascript:;"
-                ><i class="fab fa-google-plus text-lg text-white"></i
-              ></a>
+              <span>學生會</span>
             </div>
           </div>
         </div>
@@ -84,7 +69,7 @@ onUnmounted(() => {
   </header>
   <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
     <Information />
-    <AboutTeam />
+    <Featuring />
   </div>
-  <!--<DefaultFooter />-->
+  <DefaultFooter />
 </template>
