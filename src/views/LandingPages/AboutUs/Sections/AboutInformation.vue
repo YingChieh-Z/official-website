@@ -3,9 +3,17 @@
 import logo1 from "@/assets/img/logo1.png";
 import logo1_2 from "@/assets/img/logo1_2.png";
 import logo2 from "@/assets/img/logo2.png";
+//import structure from "@/assets/img/structure.jpg";
+//import UTSA_LiuEncheng from "@/assets/img/UTSA_LiuEncheng.jpg";
+//import UTSA_ChenYinhua from "@/assets/img/UTSA_ChenYinhua.jpg";
+//import UTSA_LaiHuanjin from "@/assets/img/UTSA_LaiHuanjin.jpg";
 // example components
 import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vue";
 import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCard.vue";
+//import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogCard.vue";
+//import RotatingCard from "../../../../examples/cards/rotatingCards/RotatingCard.vue";
+//import RotatingCardFront from "../../../../examples/cards/rotatingCards/RotatingCardFront.vue";
+//import RotatingCardBack from "../../../../examples/cards/rotatingCards/RotatingCardBack.vue";
 </script>
 <template>
   <section class="py-7">
@@ -235,6 +243,6 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
   margin-bottom: 4px; /* 每個項目之間的間距 */
 }
 .no-wrap {
-  white-space: nowrap; /* 不換行 */
+  white-space: nowrap;
 }
 </style>

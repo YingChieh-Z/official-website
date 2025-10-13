@@ -120,7 +120,6 @@ watch(
         title="Designed and Coded by Creative Tim"
         data-placement="bottom"
       >
-        UTSA
       </RouterLink>
       <RouterLink
         class="navbar-brand d-block d-md-none"

@@ -52,6 +52,15 @@ defineProps({
   object-fit: cover; /* 保持比例 */
   border-radius: 8px;
 }
+/*
+.team-card h5 {
+  /*font-size: 1rem; /* 標題縮小一點 
+  margin-bottom: 6px;
+}
+.team-card h6 {
+  /*font-size: 1rem; /* 副標題再小一點 
+  margin-bottom: 4px;
+}*/
 .team-card p {
   font-size: 1rem; /* 文字縮小、簡化 */
   line-height: 1.3;
@@ -59,6 +68,7 @@ defineProps({
   overflow: hidden; /* 避免太長撐高 */
   text-overflow: ellipsis;
   display: -webkit-box;
+  /*-webkit-line-clamp: 2; /* 最多兩行 */
   -webkit-box-orient: vertical;
 }
 </style>
