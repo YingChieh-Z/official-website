@@ -3,17 +3,14 @@
 import logo1 from "@/assets/img/logo1.png";
 import logo1_2 from "@/assets/img/logo1_2.png";
 import logo2 from "@/assets/img/logo2.png";
-//import structure from "@/assets/img/structure.jpg";
-//import UTSA_LiuEncheng from "@/assets/img/UTSA_LiuEncheng.jpg";
-//import UTSA_ChenYinhua from "@/assets/img/UTSA_ChenYinhua.jpg";
-//import UTSA_LaiHuanjin from "@/assets/img/UTSA_LaiHuanjin.jpg";
+import VicePresident from "@/assets/img/UTSA_VicePresident.jpg";
+import PublicRelations from "@/assets/img/UTSA_PublicRelations.jpg";
+import GeneralAffairs from "@/assets/img/UTSA_GeneralAffairs.jpg";
+import StudentRights from "@/assets/img/UTSA_StudentRights.jpg";
+import Secretary from "@/assets/img/UTSA_Secretary.jpg";
 // example components
 import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vue";
 import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCard.vue";
-//import CenteredBlogCard from "../../../../examples/cards/blogCards/CenteredBlogCard.vue";
-//import RotatingCard from "../../../../examples/cards/rotatingCards/RotatingCard.vue";
-//import RotatingCardFront from "../../../../examples/cards/rotatingCards/RotatingCardFront.vue";
-//import RotatingCardBack from "../../../../examples/cards/rotatingCards/RotatingCardBack.vue";
 </script>
 <template>
   <section class="py-7">
@@ -31,14 +28,14 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
               class="head-frame"
               :style="{ backgroundImage: `url(${logo1_2})` }"
             ></div>
-            <p class="head-name">博愛校區副會長<br />陳胤華</p>
+            <p class="head-name">會長<br />劉恩誠</p>
           </div>
           <div class="col-auto head-card">
             <div
               class="head-frame"
-              :style="{ backgroundImage: `url(${logo1_2})` }"
+              :style="{ backgroundImage: `url(${VicePresident})` }"
             ></div>
-            <p class="head-name">會長<br />劉恩誠</p>
+            <p class="head-name">博愛校區副會長<br />陳胤華</p>
           </div>
           <div class="col-auto head-card">
             <div
@@ -52,20 +49,20 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
       <div class="d-flex flex-column gap-4 mt-4 mb-4">
         <HorizontalTeamCard
           class="mt-4"
-          :image="logo1"
+          :image="Secretary"
           :profile="{ name: '秘書部', link: 'javascript:;' }"
           description="負責文書、檔案、通知、紀錄等，例如法規修訂、會議記錄等等都由秘書部負責。如果你擅長統整資料，那秘書部會是一個非常適合你發揮的地方。"
         />
         <HorizontalTeamCard
           class="mt-4"
-          :image="logo1"
+          :image="GeneralAffairs"
           :profile="{ name: '總務部', link: 'javascript:;' }"
           description="負責會費出納、會計、預算書與決算書編制、庶務、場地與器材管理。適合對數字敏感、擅長使用Excel，做事細心又謹慎的同學。"
           :reverse="true"
         />
         <HorizontalTeamCard
           class="mt-4"
-          :image="logo1"
+          :image="PublicRelations"
           :profile="{ name: '公關部', link: 'javascript:;' }"
           description="負責學生會校內外聯絡、協調、宣傳等。也負責經營社群、撰寫文案與設計圖像。如果你文筆流暢，又樂於表達自己的想法，或對美感有一定敏銳度，想要看到自己的設計變成真正的實體周邊或海報。那公關部會非常適合你！"
         />
@@ -78,7 +75,7 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
         />
         <HorizontalTeamCard
           class="mt-4"
-          :image="logo1"
+          :image="StudentRights"
           :profile="{ name: '學權部', link: 'javascript:;' }"
           description="負責處理學生權益與義務事宜，他們關注社會議題，重視學生基本權益。適合有主見，願意分析議題進行論述，並為大眾站出來的同學加入。"
         />
@@ -100,14 +97,14 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
               class="head-frame"
               :style="{ backgroundImage: `url(${logo2})` }"
             ></div>
-            <p class="head-name">博愛校區副議長<br />呂芷婕</p>
+            <p class="head-name">議長<br />簡廷宇</p>
           </div>
           <div class="col-auto head-card">
             <div
               class="head-frame"
               :style="{ backgroundImage: `url(${logo2})` }"
             ></div>
-            <p class="head-name">議長<br />簡廷宇</p>
+            <p class="head-name">博愛校區副議長<br />呂芷婕</p>
           </div>
           <div class="col-auto head-card">
             <div
@@ -133,14 +130,7 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
               col="col-md-6"
               :title="{ text: '議會職權', class: 'text-dark' }"
               :description="{
-                text: `
-                  <ul class='list-unstyled m-0 p-0'>
-                  <li> - <b>立法與審議</b>：討論並制定與學生相關之規章及自治事項。</li>
-                  <li> - <b>預算與決算審查</b>：審核學生會及各自治組織之年度預算與決算。</li>
-                  <li> - <b>監督與質詢</b>：監督學生會及其他自治組織之施政，並可提出質詢。</li>
-                  <li class='no-wrap'> - <b>建議與聲明</b>：針對校園公共事務提出建議或代表全體學生發表立場聲明。</li>
-                  </ul>
-                `,
+                text: '立法與審議、預算與決算審查、監督與質詢，以及建議與聲明。',
                 class: 'text-muted',
               }"
             />
@@ -148,7 +138,7 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
               col="col-md-6"
               :title="{ text: '議會組成', class: 'text-dark' }"
               :description="{
-                text: '議會由當選議員與當然議員組成，確保不同學系之學生權益均衡展現。議員任期固定，並透過會議制度履行表決、審查及討論職責。 ',
+                text: '議會由當選議員與當然議員組成，確保不同學系之學生權益均衡展現。議員任期固定，並透過會議制度履行表決、審查及討論職責。',
                 class: 'text-muted',
               }"
             />
@@ -156,16 +146,7 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
               col="col-md-6"
               :title="{ text: '議會運作', class: 'text-dark' }"
               :description="{
-                text: `
-                <ul class='list-unstyled m-0 p-0'>
-                  <span class='no-wrap'>
-                    學生議會設有多個委員會及秘書處，以分工合作的方式確保議事效能：
-                  </span>
-                  <li> - <b>大會</b>：議會最高決策會議，由全體議員組成，處理重大決策與表決。</li>
-                  <li> - <b>委員會</b>：依議題設置專責委員會，深入審查與研究各類提案。</li>
-                  <li> - <b>秘書處</b>：作為議會行政支柱，負責議事支援、文書處理及人事培訓。</li>
-                </ul>
-              `,
+                text: '學生議會設有多個委員會及秘書處，以分工合作的方式確保議事效能。',
                 class: 'text-muted',
               }"
             />
@@ -173,7 +154,7 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
               col="col-md-6"
               :title="{ text: '我們的使命', class: 'text-dark' }"
               :description="{
-                text: '學生議會秉持民主、透明、專業之原則，持續為同學爭取權益，推動校園公共事務，並促進師生間的對話與合作。我們相信，每位學生的聲音都應被傾聽，而議會正是將這些聲音匯聚並付諸行動的地方。',
+                text: '學生議會秉持民主、透明、專業原則，為同學爭取權益、推動校園公共事務，促進師生對話，讓每位學生的聲音被聽見並化為行動。',
                 class: 'text-muted',
               }"
             />
@@ -182,15 +163,21 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
             <HorizontalTeamCard
               class="mt-4"
               :image="logo2"
+              :profile="{ name: '大會', link: 'javascript:;' }"
+              description="議會最高決策會議，由全體議員組成，處理重大決策與表決。"
+            />
+            <HorizontalTeamCard
+              class="mt-4"
+              :image="logo2"
+              :profile="{ name: '委員會', link: 'javascript:;' }"
+              description="依議題設置專責委員會，深入審查與研究各類提案。"
+              :reverse="true"
+            />
+            <HorizontalTeamCard
+              class="mt-4"
+              :image="logo2"
               :profile="{ name: '秘書處', link: 'javascript:;' }"
-              description="
-                <ul class='list-unstyled m-0 p-0'>
-                  學生議會的核心行政單位，肩負協助議會運作、確保議事順暢的任務。
-                  <li> - <b>文書組</b>：文書處理、檔案歸檔、會議紀錄與議程草擬</li>
-                  <li> - <b>議事組</b>：會議流程規劃、召集議員、維持秩序</li>
-                  <li> - <b>公關組</b>：內外聯繫、資訊公告、社群宣傳</li>
-                  <li> - <b>人事組</b>：招募培訓、考勤紀律、團隊凝聚</li>
-                </ul>"
+              description="學生議會的行政核心，負責議事支援、文書處理與人事培訓，確保議會運作順暢。<br>設有文書組、議事組、公關組與人事組。"
             />
           </div>
         </div>
