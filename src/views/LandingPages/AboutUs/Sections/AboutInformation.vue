@@ -8,6 +8,7 @@ import PublicRelations from "@/assets/img/UTSA_PublicRelations.jpg";
 import GeneralAffairs from "@/assets/img/UTSA_GeneralAffairs.jpg";
 import StudentRights from "@/assets/img/UTSA_StudentRights.jpg";
 import Secretary from "@/assets/img/UTSA_Secretary.jpg";
+import Information from "@/assets/img/UTSA_Information.png";
 // example components
 import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vue";
 import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCard.vue";
@@ -81,7 +82,7 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
         />
         <HorizontalTeamCard
           class="mt-4"
-          :image="logo1"
+          :image="Information"
           :profile="{ name: '資訊部', link: 'javascript:;' }"
           description="負責個資控管、檔案管理以及網站與系統的開發維護。適合有基礎電腦使用能力，願意邊學邊做，且對資訊科技有熱忱的同學。"
           :reverse="true"
@@ -232,4 +233,5 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
 .no-wrap {
   white-space: nowrap;
 }
+
 </style>
