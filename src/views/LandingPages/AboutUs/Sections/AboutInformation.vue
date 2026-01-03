@@ -51,40 +51,40 @@ import DefaultInfoCard from "../../../../examples/cards/infoCards/DefaultInfoCar
         <HorizontalTeamCard
           class="mt-4"
           :image="Secretary"
-          :profile="{ name: '秘書部', link: 'javascript:;' }"
-          description="負責文書、檔案、通知、紀錄等，例如法規修訂、會議記錄等等都由秘書部負責。如果你擅長統整資料，那秘書部會是一個非常適合你發揮的地方。"
+          :profile="{ name: '秘書部長：游竣丞', link: 'javascript:;' }"
+          description="秘書部負責文書、檔案、通知、紀錄等，例如法規修訂、會議記錄等等都由秘書部負責。如果你擅長統整資料，那秘書部會是一個非常適合你發揮的地方。"
         />
         <HorizontalTeamCard
           class="mt-4"
           :image="GeneralAffairs"
-          :profile="{ name: '總務部', link: 'javascript:;' }"
-          description="負責會費出納、會計、預算書與決算書編制、庶務、場地與器材管理。適合對數字敏感、擅長使用Excel，做事細心又謹慎的同學。"
+          :profile="{ name: '總務部長：魏曉彤', link: 'javascript:;' }"
+          description="總務部負責會費出納、會計、預算書與決算書編制、庶務、場地與器材管理。適合對數字敏感、擅長使用Excel，做事細心又謹慎的同學。"
           :reverse="true"
         />
         <HorizontalTeamCard
           class="mt-4"
           :image="PublicRelations"
-          :profile="{ name: '公關部', link: 'javascript:;' }"
-          description="負責學生會校內外聯絡、協調、宣傳等。也負責經營社群、撰寫文案與設計圖像。如果你文筆流暢，又樂於表達自己的想法，或對美感有一定敏銳度，想要看到自己的設計變成真正的實體周邊或海報。那公關部會非常適合你！"
+          :profile="{ name: '公關部長：王詩涵', link: 'javascript:;' }"
+          description="公關部負責學生會校內外聯絡、協調、宣傳等。也負責經營社群、撰寫文案與設計圖像。如果你文筆流暢，又樂於表達自己的想法，或對美感有一定敏銳度，想要看到自己的設計變成真正的實體周邊或海報。那公關部會非常適合你！"
         />
         <HorizontalTeamCard
           class="mt-4"
           :image="logo1"
-          :profile="{ name: '文化部', link: 'javascript:;' }"
-          description="負責全校系活動籌畫，此部門的同學通常都很活潑，也很有創意和執行力。如果你想和他們一起舉辦能讓大家留下美好回憶的活動，文化部等你來加入！"
+          :profile="{ name: '文化部長：蔡敏之', link: 'javascript:;' }"
+          description="文化部負責全校系活動籌畫，此部門的同學通常都很活潑，也很有創意和執行力。如果你想和他們一起舉辦能讓大家留下美好回憶的活動，文化部等你來加入！"
           :reverse="true"
         />
         <HorizontalTeamCard
           class="mt-4"
           :image="StudentRights"
-          :profile="{ name: '學權部', link: 'javascript:;' }"
-          description="負責處理學生權益與義務事宜，他們關注社會議題，重視學生基本權益。適合有主見，願意分析議題進行論述，並為大眾站出來的同學加入。"
+          :profile="{ name: '學權部長：江永紘', link: 'javascript:;' }"
+          description="學權部負責處理學生權益與義務事宜，他們關注社會議題，重視學生基本權益。適合有主見，願意分析議題進行論述，並為大眾站出來的同學加入。"
         />
         <HorizontalTeamCard
           class="mt-4"
           :image="Information"
-          :profile="{ name: '資訊部', link: 'javascript:;' }"
-          description="負責個資控管、檔案管理以及網站與系統的開發維護。適合有基礎電腦使用能力，願意邊學邊做，且對資訊科技有熱忱的同學。"
+          :profile="{ name: '資訊部長：張育綸', link: 'javascript:;' }"
+          description="資訊部負責個資控管、檔案管理以及網站與系統的開發維護。適合有基礎電腦使用能力，願意邊學邊做，且對資訊科技有熱忱的同學。"
           :reverse="true"
         />
       </div>

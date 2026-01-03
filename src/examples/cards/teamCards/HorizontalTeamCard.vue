@@ -52,15 +52,7 @@ defineProps({
   object-fit: cover; /* 保持比例 */
   border-radius: 8px;
 }
-/*
-.team-card h5 {
-  /*font-size: 1rem; /* 標題縮小一點 
-  margin-bottom: 6px;
-}
-.team-card h6 {
-  /*font-size: 1rem; /* 副標題再小一點 
-  margin-bottom: 4px;
-}*/
+
 .team-card p {
   font-size: 1rem; /* 文字縮小、簡化 */
   line-height: 1.3;
@@ -70,5 +62,31 @@ defineProps({
   display: -webkit-box;
   /*-webkit-line-clamp: 2; /* 最多兩行 */
   -webkit-box-orient: vertical;
+}
+
+@media (max-width: 600px) {
+  /* 強制將 Flex 佈局改為垂直方向 */
+  .team-card .row {
+    flex-direction: column !important; 
+  }
+
+  /* 針對圖片所在的區塊 (col-auto) */
+  .team-card .col-auto {
+    width: 100%; /* 讓它佔滿整行 */
+    justify-content: center; /* 讓內部的 flex 圖片置中 */
+    margin-bottom: 15px; /* 增加圖片與下方文字的距離 */
+  }
+
+  /* 針對文字所在的區塊 (col) */
+  .team-card .col {
+    text-align: center; /* 文字置中 */
+    width: 100%; /* 確保文字區塊也佔滿寬度 */
+  }
+
+  /* 在手機版時，如果原本有設定 reverse (左右互換)，這裡要取消互換的效果，
+     確保圖片永遠在上面，文字在下面 */
+  .team-card .flex-row-reverse {
+    flex-direction: column !important;
+  }
 }
 </style>
